@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Validador de Expresiones Regulares</title>
+</head>
+<body>
+    <form id="validatorForm">
+        <label for="validationType">Tipo de Validación:</label>
+        <select id="validationType">
+            <option value="ip">Dirección IPv4</option>
+            <option value="url">URL</option>
+            <option value="email">Correo Electrónico</option>
+        </select>
+        
+        <label for="inputValue">Valor:</label>
+        <input type="text" id="inputValue" required>
+        
+        <button type="button" onclick="validate()">Validar</button>
+    </form>
+    
+    <script src="ExpresionesRegulares.js"></script>
+</body>
+</html>

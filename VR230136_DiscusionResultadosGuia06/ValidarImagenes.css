@@ -1,0 +1,11 @@
+#fileLabel {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#fileLabel:hover {
+    background-color: #45a049;
+}
